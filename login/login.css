@@ -1,7 +1,7 @@
 
 
 .authentication-container{
-    border: 2px solid gray;
+    background: beige;
 }
 
 .logo-image{
@@ -13,25 +13,29 @@
 .title{
     display: flex;
     border: 1px solid gray;
+    background: cadetblue;
+    color: white;
+    font-family: fantasy;
 
 }
 .login-form{
+    background-color: aliceblue;
     padding: 5%;
     display: flex;
     flex-direction: column;
     margin: 100px 100px 0px 100px;
     /* padding-bottom: 10; */
-    border: 2px solid gray;
 }
 .submit-action{
     border: none;
     border-radius: 5px;
-    background: #0066ff;
+    background: cadetblue;
     color: white;
     width: 100px;
     height: 50px;
     margin-top: 10px;
     float: right;
+    font-family: fantasy;
 }
 .signup-action{
     width: 250px;
@@ -41,6 +45,7 @@
 }
 
 .input-field {
+    font-family: fantasy;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;

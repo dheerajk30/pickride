@@ -1,7 +1,9 @@
 
 
 .authentication-container{
-    border: 2px solid gray;
+    
+    font-family: fantasy;
+    background: beige;
 }
 
 .logo-image{
@@ -13,15 +15,17 @@
 .title{
     display: flex;
     border: 1px solid gray;
-
+    background: cadetblue;
+    color: white;
+    font-family: fantasy;
 }
 .registration-form{
+    background-color: aliceblue;
     display: flex;
     padding: 5%;
     flex-direction: column;
     margin: 100px 100px 0px 100px;
     /* padding-bottom: 10; */
-    border: 2px solid gray;
 }
 .submit-action{
     margin-top: 50px;
@@ -43,16 +47,18 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: fantasy;
  }
  .register-btn{
      border: none;
     border-radius: 5px;
-    background: #0066ff;
+    background: cadetblue;
     color: white;
     width: 100px;
     height: 50px;
     margin-top: 10px;
     float: right;
+    font-family: fantasy;
 }
 
 

@@ -1,6 +1,6 @@
 .homepage-body{
     border: 1px solid gray;
-
+    background: beige;
 }
 .logo-image{
     flex-basis: 5%;
@@ -11,6 +11,9 @@
 .title{
     display: flex;
     border: 1px solid gray;
+    background: cadetblue;
+    color: white;
+    font-family: fantasy;
 
 }
 .search-panel{
@@ -53,6 +56,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: fantasy;
  }
 
  .confirm-btn{
@@ -62,4 +66,5 @@
      color: white;
      border: none;
      margin-bottom: 10px;     
+     font-family: fantasy;
 }
