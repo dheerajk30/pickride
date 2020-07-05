@@ -1,0 +1,66 @@
+data = [
+ {
+     "id": 1,
+     "name": "Rishabh",
+     "rating": 4.5,
+     "routePoints":["HSR layout", "Whitefield"],
+     "vehicle":"WagonR",
+     "vacancies": 1,
+     "startTime": 9
+ },
+ {
+     "id": 2,
+     "name": "Dheeraj",
+     "rating": 2.5,
+     "routePoints":[ "HSR layout", "Cessna"],
+     "vehicle":"Alto",
+     "vacancies": 2,
+     "startTime": 9
+ },   
+ {
+     "id": 3,
+     "name": "Anshuman R",
+     "rating": 3.5,
+     "routePoints":["Koramangala", "HSR layout"],
+     "vehicle":"Swift",
+     "vacancies": 5,
+     "startTime": 9
+ },   
+ {
+     "id": 4,
+     "name": "Mahima",
+     "rating": 5.0,
+     "routePoints":["Koramangala", "BTM layout", "Cessna", "Whitefield"],
+     "vehicle":"Safari Storme",
+     "vacancies": 3,
+     "startTime": 9
+ },   
+ {
+     "id": 5,
+     "name": "Poornima",
+     "rating": 2.5,
+     "routePoints":["BTM layout", "Cessna", "Whitefield"],
+     "vehicle":"Chevrolet Beat",
+     "vacancies": 4,
+     "startTime": 9
+ },
+ {
+     "id": 6,
+     "name": "Sanjay",
+     "rating": 5.0,
+     "routePoints":["BTM layout", "Cessna", "Whitefield"],
+     "vehicle":"Indica",
+     "vacancies": 3,
+     "startTime": 9
+ },   
+ {
+     "id": 7,
+     "name": "Prashant P",
+     "rating": 2.5,
+     "routePoints":["BTM layout", "Cessna", "Whitefield"],
+     "vehicle":"I20",
+     "vacancies": 4,
+     "startTime": 9
+ }   
+
+]

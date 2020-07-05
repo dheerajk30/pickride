@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Login to App</title>
+		<link rel="stylesheet" href="login.css" />
+		<script src="login.js"></script>
+	</head>
+	<body>
+		<div class="authentication-container">
+			<div class="title">
+				<img src="../assets/carlogo.png" class="logo-image" />
+				<h3>Login To App</h3>
+			</div>
+			<div class="login-form">
+				<form name="login" onSubmit="return loginUser();">
+					<input
+						class="input-field"
+						name="username"
+						type="text"
+						placeholder="10 digit mobile number or email id"
+					/>
+					<input
+						class="input-field"
+						name="password"
+						type="password"
+						placeholder="Enter a secure password"
+					/>
+					<input class="submit-action" type="submit" value="Submit" />
+				</form>
+			</div>
+			<div class="signup-action">
+				<span>Dont have an account?</span>
+				<a href="../signup/index.html">Register Now</a>
+			</div>
+		</div>
+	</body>
+</html>

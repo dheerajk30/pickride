@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Pick a ride</title>
+        <link rel="stylesheet" href="homepage.css" />
+        <script src="../mock/mockrides.json"></script>
+		<script src="./homepage.js"></script>
+	</head>
+	<body onload="loadData()">
+		<div class="homepage-body">
+			<div class="title">
+				<img src="../assets/carlogo.png" class="logo-image" />
+				<h3>Pick a ride</h3>
+			</div>
+			<div class="search-panel">
+				<div class="form-container">
+					<input
+						onchange="searchRide()"
+						class="input-field"
+						id="rideStartPoint"
+						type="text"
+						placeholder="Enter start location"
+					/>
+					<input
+						onchange="searchRide()"
+						class="input-field"
+						id="rideEndPoint"
+						type="text"
+						placeholder="Enter destination"
+					/>
+				</div>
+			</div>
+			<ul id="search-result-container" class="results-container"></ul>
+		</div>
+	</body>
+</html>

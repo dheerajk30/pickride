@@ -1,0 +1,65 @@
+.homepage-body{
+    border: 1px solid gray;
+
+}
+.logo-image{
+    flex-basis: 5%;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.title{
+    display: flex;
+    border: 1px solid gray;
+
+}
+.search-panel{
+    text-align: center;
+    padding: 4%;
+
+}
+.results-container{
+    columns: 2;
+    list-style-type: none;
+}
+.form-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-item{
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 20px;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rating-div{
+    font-size: 14px;
+    
+}
+.time-div{
+    font-style: italic;
+    font-size: 12px;
+    color: grey
+}
+
+.input-field {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+
+ .confirm-btn{
+     height: 30px;
+     width: 200px;
+     background-color: green;
+     color: white;
+     border: none;
+     margin-bottom: 10px;     
+}
